@@ -11,6 +11,8 @@ import UIKit
 class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var displayResultLabel: UILabel!
+    @IBOutlet var buttonNumbers: [UIButton]!
+    
     
     var stillTyping = false
     var dotIsPlaced = false
@@ -23,13 +25,33 @@ class CalculatorViewController: UIViewController {
             return Double(displayResultLabel.text!)!
         }
         set {
-            displayResultLabel.text = "\(newValue)"
+            let value = "\(newValue)"
+            let valueArray = value.components(separatedBy: ".")
+            if valueArray[1] == "0" {
+                displayResultLabel.text = "\(valueArray[0])"
+            } else {
+                displayResultLabel.text = "\(newValue)"
+            }
+            
             stillTyping = false
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        cornerForButtons()
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .darkContent
+    }
+
+    func cornerForButtons() {
+        for button in buttonNumbers {
+            button.layer.cornerRadius = 25.0
+        }
+    }
+    
     func operateWithTwoOperands(operation: (Double, Double) -> Double) {
         currentInput = operation(firstOperand, secondOperand)
         stillTyping = false
@@ -45,18 +67,18 @@ class CalculatorViewController: UIViewController {
             if displayResultLabel.text!.count < 20 {
                 displayResultLabel.text = displayResultLabel.text! + number
             }
-            } else {
-                displayResultLabel.text = number
-                stillTyping = true
-            }
+        } else {
+            displayResultLabel.text = number
+            stillTyping = true
         }
-
+    }
+    
     @IBAction func twoOperandsSignPressed(_ sender: UIButton) {
         operationSign = sender.currentTitle!
         firstOperand = currentInput
         stillTyping = false
     }
-
+    
     @IBAction func equalitySignPressed(_ sender: UIButton) {
         
         if stillTyping {
@@ -69,13 +91,13 @@ class CalculatorViewController: UIViewController {
             operateWithTwoOperands { $0 + $1 }
         case "-":
             operateWithTwoOperands { $0 - $1 }
-
+            
         case "×":
             operateWithTwoOperands { $0 * $1 }
-
+            
         case "÷":
             operateWithTwoOperands { $0 / $1 }
-
+            
         default:
             break
         }
@@ -116,8 +138,5 @@ class CalculatorViewController: UIViewController {
             displayResultLabel.text = "0."
         }
     }
-    
-    
-    
 }
 

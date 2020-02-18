@@ -20,166 +20,230 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFC-qh-Dyf">
                                         <rect key="frame" x="1" y="1" width="102.5" height="96.5"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="AC"/>
+                                        <state key="normal" title="AC">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="clearButtonPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="ZVZ-rX-U01"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPz-sG-vub">
                                         <rect key="frame" x="104.5" y="1" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="+/-"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="33"/>
+                                        <state key="normal" title="+/-">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="plusMinusButtonPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="3AB-PX-fKX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iu5-BJ-llg">
                                         <rect key="frame" x="207.5" y="1" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="%"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                        <state key="normal" title="%">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="percentageButtonPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="7Dy-Ce-zOC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59v-Ql-Ttn">
                                         <rect key="frame" x="311" y="1" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="+"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
+                                            <action selector="equalitySignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="EsA-fj-FdC"/>
                                             <action selector="twoOperandsSignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="k9L-EK-iJN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPI-0s-gaf">
                                         <rect key="frame" x="1" y="98.5" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="7"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="9sH-IW-i3j"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-A8-PW5">
                                         <rect key="frame" x="104.5" y="98.5" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="8"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="alK-XF-ia1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2P-xO-aor">
                                         <rect key="frame" x="207.5" y="98.5" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="9"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="MWo-lV-o9a"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnX-Ij-ZkB">
                                         <rect key="frame" x="311" y="98.5" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="-"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
+                                            <action selector="equalitySignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="Rfv-9N-wAk"/>
                                             <action selector="twoOperandsSignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="Sul-RV-ovF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Tf-vU-whf">
                                         <rect key="frame" x="1" y="196" width="102.5" height="96"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="4"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="V57-cG-S5T"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdE-1x-o9O">
                                         <rect key="frame" x="104.5" y="196" width="102" height="96"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="5"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="cDu-i9-Uf2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4z-H1-hrA">
                                         <rect key="frame" x="207.5" y="196" width="102.5" height="96"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="6"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="5uR-zs-ynh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZu-kK-uDX">
                                         <rect key="frame" x="311" y="196" width="102" height="96"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="×"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                        <state key="normal" title="×">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
+                                            <action selector="equalitySignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="Hz9-BN-JZs"/>
                                             <action selector="twoOperandsSignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="RAi-ML-Egw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO4-UM-lsC">
                                         <rect key="frame" x="1" y="293" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="1"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="yF1-Xi-egd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrV-eA-IIU">
                                         <rect key="frame" x="104.5" y="293" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="2"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="Z13-lq-pkm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYw-5g-ssG">
                                         <rect key="frame" x="207.5" y="293" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="3"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="eTV-Yp-KH3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-9b-N2x">
                                         <rect key="frame" x="311" y="293" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="÷"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="÷">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
+                                            <action selector="equalitySignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="ikx-c1-STx"/>
                                             <action selector="twoOperandsSignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="pNh-D6-bj4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDr-gY-KNX">
                                         <rect key="frame" x="1" y="390.5" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="√"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="√">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="squareRootButtonPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="xOQ-5g-Wjf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdI-ut-CMQ">
                                         <rect key="frame" x="104.5" y="390.5" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="0"/>
+                                        <color key="backgroundColor" red="0.6705882353" green="0.81960784310000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="31"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="dez-lv-KDN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGd-hs-w9n">
                                         <rect key="frame" x="207.5" y="390.5" width="102.5" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="43"/>
-                                        <state key="normal" title="."/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="45"/>
+                                        <state key="normal" title=".">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="dotButtonPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="HAl-x1-c31"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSB-zf-cGU">
                                         <rect key="frame" x="311" y="390.5" width="102" height="96.5"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="30"/>
-                                        <state key="normal" title="="/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="45"/>
+                                        <state key="normal" title="=">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="equalitySignPressed:" destination="6rx-Tu-VBw" eventType="touchUpInside" id="Y5u-5O-DPp"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="y4z-H1-hrA" firstAttribute="leading" secondItem="pdE-1x-o9O" secondAttribute="trailing" constant="1" id="00x-cG-eg6"/>
                                     <constraint firstItem="VPI-0s-gaf" firstAttribute="leading" secondItem="MaD-MG-IgH" secondAttribute="leading" constant="1" id="1AI-ys-Ymh"/>
@@ -273,11 +337,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="3Sg-dI-fNH">
                                 <rect key="frame" x="20" y="221" width="374" height="108"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="90"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.69263184511818421" green="0.90588235294117647" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3Sg-dI-fNH" firstAttribute="centerX" secondItem="MaD-MG-IgH" secondAttribute="centerX" id="1L4-I1-Q6s"/>
                             <constraint firstItem="MaD-MG-IgH" firstAttribute="top" secondItem="3Sg-dI-fNH" secondAttribute="bottom" constant="25" id="35e-1l-FYs"/>
@@ -291,6 +355,26 @@
                     </view>
                     <connections>
                         <outlet property="displayResultLabel" destination="3Sg-dI-fNH" id="chP-BQ-lMd"/>
+                        <outletCollection property="buttonNumbers" destination="WFC-qh-Dyf" collectionClass="NSMutableArray" id="PkG-wA-JO2"/>
+                        <outletCollection property="buttonNumbers" destination="d2P-xO-aor" collectionClass="NSMutableArray" id="Ubj-rJ-NRy"/>
+                        <outletCollection property="buttonNumbers" destination="lPz-sG-vub" collectionClass="NSMutableArray" id="jx9-I1-Kbp"/>
+                        <outletCollection property="buttonNumbers" destination="Iu5-BJ-llg" collectionClass="NSMutableArray" id="zfU-k4-Lky"/>
+                        <outletCollection property="buttonNumbers" destination="59v-Ql-Ttn" collectionClass="NSMutableArray" id="dYl-jp-r0I"/>
+                        <outletCollection property="buttonNumbers" destination="hnX-Ij-ZkB" collectionClass="NSMutableArray" id="gBv-4a-FzU"/>
+                        <outletCollection property="buttonNumbers" destination="HAf-A8-PW5" collectionClass="NSMutableArray" id="9Fh-nP-dGS"/>
+                        <outletCollection property="buttonNumbers" destination="VPI-0s-gaf" collectionClass="NSMutableArray" id="Nbd-Hf-KqY"/>
+                        <outletCollection property="buttonNumbers" destination="9Tf-vU-whf" collectionClass="NSMutableArray" id="KHe-Ic-knN"/>
+                        <outletCollection property="buttonNumbers" destination="pdE-1x-o9O" collectionClass="NSMutableArray" id="BHh-mS-XbB"/>
+                        <outletCollection property="buttonNumbers" destination="y4z-H1-hrA" collectionClass="NSMutableArray" id="GRH-sj-bkF"/>
+                        <outletCollection property="buttonNumbers" destination="mZu-kK-uDX" collectionClass="NSMutableArray" id="McP-Y3-jwR"/>
+                        <outletCollection property="buttonNumbers" destination="H9Z-9b-N2x" collectionClass="NSMutableArray" id="VA2-58-FfP"/>
+                        <outletCollection property="buttonNumbers" destination="UYw-5g-ssG" collectionClass="NSMutableArray" id="uSg-bs-rfg"/>
+                        <outletCollection property="buttonNumbers" destination="TrV-eA-IIU" collectionClass="NSMutableArray" id="pIH-A9-CHx"/>
+                        <outletCollection property="buttonNumbers" destination="RO4-UM-lsC" collectionClass="NSMutableArray" id="K73-sH-hzD"/>
+                        <outletCollection property="buttonNumbers" destination="JSB-zf-cGU" collectionClass="NSMutableArray" id="OcB-Gc-HGh"/>
+                        <outletCollection property="buttonNumbers" destination="DGd-hs-w9n" collectionClass="NSMutableArray" id="Teb-mc-4HN"/>
+                        <outletCollection property="buttonNumbers" destination="SdI-ut-CMQ" collectionClass="NSMutableArray" id="pl4-8U-VBT"/>
+                        <outletCollection property="buttonNumbers" destination="QDr-gY-KNX" collectionClass="NSMutableArray" id="O9F-S7-WWj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7H-jD-ea7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
